@@ -1,8 +1,11 @@
+title: 'Tutorial 1 Teaching Solutions: Business Analytics Skills for Inventory Management'
+author: Foundations of Business Analytics
+date: today
+date-format: "MMMM, YYYY"
 project:
   render:
-    - tutorial-r.qmd
-title: 'Solutions document: R version'
+    - tutorial.qmd
 format:
   html:
-    output-file: "tutorial-r-solutions"
+    output-file: "tutorial-01-solutions"
     output-ext:  "html"

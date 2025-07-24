@@ -1,0 +1,81 @@
+### Exercise 2: Approaches to Inventory Planning 
+
+Read the article, "[A New Approach to Production and Inventory Planning](https://hbr.org/2023/09/a-new-approach-to-production-and-inventory-planning)," and answer the following questions in  2–3 sentences:
+<!-- question-type: prepare -->
+(a) What is one key challenge businesses face in managing inventory today?
+(b) How could this apply to a retailer like David Jones, especially during busy seasons like Christmas?
+
+<!-- BEGIN PROFILE:r-teaching-guide -->
+::: {.content-visible when-profile="r-teaching-guide"}
+
+::: {.teaching-block}
+
+::: {.teaching-block-header}
+Teaching Note
+:::
+
+::: {.teaching-block-body}
+🎯 **Learning Objectives**
+
+Students should:
+
+- Understand the strategic trade-offs between efficiency and responsiveness in inventory systems
+- Recognise why traditional cost-minimising models (like lean or just-in-time) may fail under uncertainty
+- Apply this idea to real retail planning at David Jones, especially during seasonal peaks
+
+✅  **Core Concetpts to Highlight**
+
+**Efficiency vs. Flexibility Trade-off:**
+Traditional models aim to reduce waste and cost (e.g. lean, EOQ), but this can create vulnerability when demand is volatile or supply chains are disrupted.
+
+**Resilience in Inventory Planning:**
+The article recommends incorporating uncertainty buffers, scenario planning, and dynamic reforecasting into modern inventory models.
+
+**Strategic Implication for Retailers:**
+Seasonal demand (like Christmas) is inherently unpredictable. Retailers like David Jones must plan not only for expected demand but also for variance in demand — including regional differences and promotional effects.
+
+💬 Suggested In-Class Prompts
+
+“Why might a perfectly efficient system become a liability during the holidays?”
+
+“What types of uncertainty does David Jones face when planning inventory?”
+
+“How would you build flexibility into a retail inventory strategy?”
+
+“Can you think of a real example where a store ran out of something during a big shopping period?”
+
+📌 **Common Misunderstandings**
+
+- Believing that efficiency (lean, just-in-time) is always the best strategy
+- Assuming you can forecast demand precisely — students often forget to account for uncertainty
+- Treating inventory planning as purely operational rather than strategic and data-informed
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-teaching-guide -->
+
+<!-- BEGIN PROFILE:r-solutions -->
+::: {.content-visible when-profile="r-solutions" when-profile="r-teaching-guide"}
+
+::: {.solution-block}
+
+::: {.solution-block-header}
+Solution
+:::
+
+::: {.solution-block-body}
+
+(a)
+One key challenge is balancing efficiency with flexibility. Many traditional inventory systems aim to minimise costs by keeping stock levels low (like with just-in-time models), but these systems struggle when there is uncertainty or sudden changes in demand. This makes businesses vulnerable to stockouts or delays when things don’t go as planned.
+
+(b)
+David Jones experiences unpredictable demand spikes during the holiday season. If they rely on a rigid or overly efficient inventory rule, they risk running out of popular items like gift hampers or over-ordering and being left with excess stock. To avoid this, they need a more flexible approach that can adjust to regional sales trends, promotion effects, and delivery timing issues.
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-solutions -->

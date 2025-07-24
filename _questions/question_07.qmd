@@ -1,0 +1,145 @@
+<!-- question-type: inclass -->
+### Exercise 7: Exploring Last Year's Data
+
+The team now wants to use **last year's data** to improve inventory decisions for the upcoming holiday season.
+
+As the new group of analysts in the company, you’ve been asked to review what happened and make recommendations for this year’s strategy.
+
+The data you have to work from are provided below:
+
+
+| Week Commencing | Region    | Starting Inventory | Units Delivered | Units Sold | Ending Inventory | Price (AUD) | Promotion (Y/N) |
+|-----------------|-----------|------------------|----------------|------------|-----------------|-------------|----------------|
+| 25 Nov          | Sydney    | 500              | 100            | 100        | 500             | 50          | N              |
+| 25 Nov          | Melbourne | 500              | 100            | 150        | 450             | 50          | N              |
+| 2 Dec           | Sydney    | 500              | 100            | 180        | 420             | 45          | Y              |
+| 2 Dec           | Melbourne | 450              | 100            | 220        | 330             | 45          | Y              |
+| 9 Dec           | Sydney    | 420              | 100            | 150        | 370             | 45          | Y              |
+| 9 Dec           | Melbourne | 330              | 100            | 100        | 330             | 45          | Y              |
+| 16 Dec          | Sydney    | 370              | 100            | 400        | 70              | 40          | Y (Christmas)  |
+| 16 Dec          | Melbourne | 330              | 100            | 400        | 30              | 40          | Y (Christmas)  |
+| 23 Dec          | Sydney    | 70               | 100            | 120        | 50              | 50          | N              |
+| 23 Dec          | Melbourne | 30               | 100            | 150        | -20 (backorder) | 50          | N              |
+
+Follow the three-step approach below to draw conclusions about what happened in the previous year.
+
+
+#### Step 1: Observe
+(a) What patterns do you notice in sales over time?
+(b) How do price changes and the Christmas promotion relate to changes in sales?
+(c) What differences stand out between Sydney and Melbourne?
+
+#### Step 2: Analyse
+(a) How well is the fixed restocking rule working in each region?
+(b) When did inventory levels become risky?
+(c) Were there signs earlier in the data that could have helped predict this?
+
+####  Step 3: Predict & Explain
+(a) If nothing changes, what do you expect to happen next week?
+(b) What factors might be driving the differences between the two regions?
+(c) What other data would help you explain or predict these patterns more confidently?
+
+<!-- BEGIN PROFILE:r-teaching-guide -->
+::: {.content-visible when-profile="r-teaching-guide"}
+
+::: {.teaching-block}
+
+::: {.teaching-block-header}
+Teaching Note
+:::
+
+::: {.teaching-block-body}
+
+🎯 **Learning Objective**
+
+Students should:
+
+- Practise descriptive analysis of time-series and regional patterns
+- Identify predictive warning signs in the data
+- Begin developing causal hypotheses (e.g. “sales increased because of promotion or price drop”)
+
+✅  **Core Concetpts to Highlight**
+
+Descriptive vs. Predictive vs. Causal lenses:
+
+- Descriptive: What happened and when?
+- Predictive: What might happen again if we don’t act?
+- Causal: What factors likely caused these changes?
+
+Inventory stress points:
+
+- Look for low ending inventory and stockouts.
+- Ask: were these avoidable based on earlier patterns?
+
+Restocking logic:
+
+- The rule is fixed (100/week), but demand is not.
+- Students should challenge this with data evidence.
+
+Promotion and pricing effects:
+
+- Show how promotions (esp. week of 2 Dec) drove sales.
+- Push students to distinguish between correlation and likely cause.
+
+💬 **Suggested In-Class Prompts** 
+
+“When would you have raised a red flag about inventory levels?”
+
+“Did the same promotion have the same impact in both cities?”
+
+“What kind of data would help you confirm your explanations?”
+
+“Are there different insights if you take a descriptive vs. predictive lens?”
+
+📌 **Common Misunderstandings**
+
+Assuming promotion caused sales without considering other factors
+
+Failing to compare across regions (Sydney vs Melbourne)
+
+Describing what happened without suggesting how it could have been anticipated or avoided
+
+
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-teaching-guide -->
+
+<!-- BEGIN PROFILE:r-solutions -->
+::: {.content-visible when-profile="r-solutions" when-profile="r-teaching-guide"}
+
+::: {.solution-block}
+
+::: {.solution-block-header}
+Solution
+:::
+
+::: {.solution-block-body}
+
+Step 1: Observe
+
+- Sales increased steadily from late November into December, with a major spike in the week of 16 Dec — likely due to the Christmas promotion.
+- Sydney and Melbourne had similar trends, but Melbourne consistently sold more units and even experienced a stockout in the final week.
+- Price drops and promotions seem to directly increase sales.
+
+Step 2: Analyse
+
+- The fixed restocking rule (100 units per week) worked early on, but failed to match demand as it surged — especially in Melbourne.
+- Inventory in Melbourne dipped to dangerously low levels by early December. Sydney fared better but still ended with low stock.
+- The promotion started on 2 Dec, so we could have anticipated higher demand from that week and adjusted stock accordingly.
+
+Step 3: Predict & Explain
+
+- If David Jones keeps the same restocking pattern, they’ll likely understock again during peak season.
+- Regional demand differences (e.g. Melbourne being stronger), combined with promotion timing and price sensitivity, are key drivers.
+- More detailed customer-level data (e.g. purchase history, response to past promotions) or store traffic data could help explain the variation and improve predictions.
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-solutions -->

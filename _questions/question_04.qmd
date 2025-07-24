@@ -1,0 +1,84 @@
+<!-- question-type: prepare -->
+### Exercise 4: Identifying Data 
+If you were working as an analyst at David Jones, what types of data would you want to collect to help manage inventory effectively?
+List at least three kinds of data.
+
+<!-- BEGIN PROFILE:r-teaching-guide -->
+::: {.content-visible when-profile="r-teaching-guide"}
+
+::: {.teaching-block}
+
+::: {.teaching-block-header}
+Teaching Note
+:::
+
+::: {.teaching-block-body}
+
+🎯  **Learning Objective**
+Students should:
+
+Recognise the variety of data types relevant to inventory decisions
+
+Think beyond sales totals to consider timing, location, operations, and marketing
+
+Practise connecting data sources to concrete decisions (e.g., ordering, pricing, promotion)
+
+✅  **Core Concetpts to Highlight**
+
+Sales data: Disaggregated by region, product, and time — foundational for demand forecasting.
+
+Operational data: Inventory levels, delivery lead times, stockouts — needed for supply planning.
+
+Marketing data: Promotion schedules, price changes, advertising — useful for understanding demand spikes.
+
+Customer data: Foot traffic, preferences, order patterns — can help in longer-term planning.
+
+Principle: Good inventory decisions rely on data across teams/business functionalities — not just sales.
+
+💬 **Suggested In-Class Prompts**
+
+“What data would you ask for first if you were joining the David Jones inventory team today?”
+
+“How would you use sales data differently from promotion data?”
+
+“Can you make a strong inventory decision without knowing delivery lead times?”
+
+📌 **Common Misunderstandings**
+
+- Focusing only on sales and ignoring supply-side factors
+- Listing data without explaining how it would help (encourage justification!)
+- Confusing nice-to-have data (e.g. customer opinions) with essential operational data
+
+
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-teaching-guide -->
+
+<!-- BEGIN PROFILE:r-solutions -->
+::: {.content-visible when-profile="r-solutions" when-profile="r-teaching-guide"}
+
+::: {.solution-block}
+
+::: {.solution-block-header}
+Solution
+:::
+
+::: {.solution-block-body}
+
+**Weekly sales data by region** – This helps identify demand trends over time and differences between Sydney and Melbourne.
+
+**Promotion calendar and price changes** – To understand how discounts or campaigns affect sales volume and timing.
+
+**Supplier delivery lead times** – So the team knows how far in advance they need to place orders to receive stock in time.
+
+Optional extras might include customer foot traffic, stockout incidents, or competitor activity if available. Other answers data sets that appear sensible are also OK to include.
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-solutions -->

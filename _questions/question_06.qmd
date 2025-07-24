@@ -1,0 +1,118 @@
+<!-- question-type: inclass -->
+### Exercise 6: Defining a Problem and Crafting Questions
+
+(a) Share your draft research questions with your group.
+(b) Discuss which questions are clear? Which are answerable with data? Which could help David Jones make a better decision?
+(c) Which of the proposed questions is the "best". Explain why.
+
+::: {.callout-tip} 
+## Conversation prompt  
+Are your group's questions descriptive (what happened), predictive (what will happen), or causal (why did it happen)? How does that shape the analysis?
+:::
+
+<!-- BEGIN PROFILE:r-teaching-guide -->
+::: {.content-visible when-profile="r-teaching-guide"}
+
+::: {.teaching-block}
+
+::: {.teaching-block-header}
+Teaching Note
+:::
+
+::: {.teaching-block-body}
+
+🎯 Learning Objective
+Students should:
+
+Practise evaluating research questions against business and analytical criteria
+
+Begin to distinguish between descriptive, predictive, and causal questions
+
+Understand what makes a research question valuable in a business context
+
+✅  **Core Concetpts to Highlight**
+
+A good business analytics question should be:
+
+- Clear and specific
+- Avoids vague terms like "better" or "improve" without context
+- Clearly defines what is being measured, where, and when
+- Answerable with available or realistic data
+- Avoids overly hypothetical questions or those requiring data that doesn’t exist
+- Anchored in what the company could actually track (sales, promotions, delivery times, etc.)
+- Tied to a business decision
+- Supports action: changes in ordering, pricing, promotion, or staffing
+- Doesn’t just explore curiosity — it has a “so what?”
+- Appropriately scoped
+- Not too broad (e.g. “How can David Jones improve Christmas?”)
+- Not too narrow (e.g. “What happened on Dec 14 in Sydney?”)
+
+Also, encourage students to classify the question type:
+
+- Descriptive: What happened?
+- Predictive: What is likely to happen?
+- Causal: What effect did X have on Y?
+
+Each type suggests different methods and data needs — and possibly different risks.
+
+💬 **Suggested In-Class Prompts**
+
+“Does this question support a business decision?”
+
+“Would a manager care about the answer to this question?”
+
+“Could you realistically answer it with data from last year?”
+
+“Is the question asking what happened (descriptive), what might happen (predictive), or why it happened (causal)?”
+
+📌 **Common Misunderstandings**
+
+Thinking the most complex question is the best
+
+Overemphasising academic phrasing over business clarity (there'll be plenty of that later in their degree!)
+
+Failing to justify why the chosen question is more useful than others
+
+📝 **Optional Extension Prompt**
+
+“Revise one of your group's questions using what you’ve learned. How would you make it clearer, more answerable, or more useful?”
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-teaching-guide -->
+
+<!-- BEGIN PROFILE:r-solutions -->
+::: {.content-visible when-profile="r-solutions" when-profile="r-teaching-guide"}
+
+::: {.solution-block}
+
+::: {.solution-block-header}
+Solution
+:::
+
+::: {.solution-block-body}
+
+There is no single “correct” research question. Instead, a your discussion should have focussed on:
+
+1. A clear set of criteria for judging research questions, such as:
+    - Clarity: Is the question specific and easy to understand?
+    - Answerability: Could we answer it with available or realistic data?
+    - Business relevance: Would answering this help David Jones make a better inventory decision?
+    - Scope: Is it neither too vague nor too narrow?
+    - Analytical orientation: Is the question descriptive, predictive, or causal — and is that a good fit for the business problem?
+
+✅ 2. A clear justification of which question is “best”
+The group should select the most decision-relevant question and explain why it would be most useful to investigate.
+
+A strong answer might be something like:
+
+“We chose this question because it helps us predict future demand across regions, which directly informs how many units to order. It's also answerable with the data we already have.”
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-solutions -->

@@ -1,10 +1,16 @@
-project:
-  render:
-    - tutorial-r.qmd
-title: 'Questions document: R version'
-execute:
-  eval: false
+# BEGIN STUDENT HEADER
+title: 'Tutorial 1: Business Analytics Skills for Inventory Management'
+author: Foundations of Business Analytics
+date: today
+date-format: "MMMM, YYYY"
+# END STUDENT HEADER
 format:
   html:
-    output-file: "tutorial-r-questions"
-    output-ext:  "html"
+    embed-resources: true
+engine: knitr
+
+project:
+  render:
+    - tutorial.qmd
+execute:
+  eval: false

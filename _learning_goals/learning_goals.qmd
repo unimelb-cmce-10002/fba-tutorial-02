@@ -1,0 +1,12 @@
+::: {.callout-tip}
+## Learning Goals {.unnumbered}
+
+By the end of this tutorial, you should be able to:
+
+- Understand how inventory decisions impact David Jones’ operations
+- Draft and critique research questions for an inventory challenge
+- Interpret sales and inventory data for two regions
+- Recognise how descriptive, predictive, and causal perspectives offer different insights
+- Practise communicating findings in a clear, manager-friendly way
+- Reflect on your skills as a business data analyst
+:::

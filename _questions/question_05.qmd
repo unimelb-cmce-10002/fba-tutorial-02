@@ -1,0 +1,103 @@
+<!-- question-type: prep -->
+### Exercise 5: Skill Choices 
+What skills do you think does a business data analyst needs to solve this problem? Justify your answer.
+
+<!-- BEGIN PROFILE:r-teaching-guide -->
+::: {.content-visible when-profile="r-teaching-guide"}
+
+::: {.teaching-block}
+
+::: {.teaching-block-header}
+Teaching Note
+:::
+
+::: {.teaching-block-body}
+
+🎯 **Learning Objective**
+
+Students should:
+
+- Connect the David Jones inventory problem to specific skills in the business scientist toolkit
+- Recognise that different problems require different mixes of skills
+- Reflect on their own strengths and development areas
+
+✅  **Core Concetpts to Highlight**
+
+Introduce or reinforce the 8 skills of a business scientist from the FBA book:
+
+1. Understand the Business World (Institutional Detail)
+Grasp seasonal patterns, logistics, and operations.
+
+2. Find the Right Data (Data Discovery)
+Know what data exists, who owns it, and how to access it.
+
+3. Understand People and Firms (Business Theory)
+Explain why demand shifts — e.g. promotions, regional habits.
+
+4. Choose the Right Tool (Analytical Models)
+Use appropriate summaries or models to understand demand.
+
+5. Know What Can Go Wrong (Analytical Theory)
+Spot risk of misleading results — like outliers or unrepresentative patterns.
+
+6. Work with Code and Technology (Computational Skills)
+Clean and analyse data using reproducible workflows.
+
+7. Communicate What You Find (Presentation & Communication)
+Clearly explain results and persuade decision-makers.
+
+7. Ask the Right Questions (Creativity & Judgment)
+Turn a vague challenge into a testable, decision-relevant question.
+
+Emphasise: Most analysts won’t use all eight in every project — and that’s okay.
+The goal is to build awareness of what the problem demands, and what the analyst brings to it.
+
+💬 **Suggested In-Class Prompts**
+
+“Which three skills would be most important for you in this problem?”
+
+“Which of these skills do you already feel confident in?”
+
+“Can you think of similar business problem where a different skill mix would matter more?”
+
+📌 **Common Misunderstandings** 
+
+Thinking analytics = coding or modelling only
+
+Overlooking the importance of business context, judgment, or communication
+
+Not recognising that skills can be shared across a team
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-teaching-guide -->
+
+<!-- BEGIN PROFILE:r-solutions -->
+::: {.content-visible when-profile="r-solutions" when-profile="r-teaching-guide"}
+
+::: {.solution-block}
+
+::: {.solution-block-header}
+Solution
+:::
+
+::: {.solution-block-body}
+
+Solving this inventory problem at David Jones would draw on several skills.
+
+Arguably, the most essential here are:
+
+1. Understand the Business World (Institutional Detail): You need to know how retail and seasonal promotions work to interpret the data meaningfully.
+2. Ask the Right Questions (Creativity & Judgment): You must turn the inventory issue into focused, answerable questions about demand patterns and delivery timing.
+3. Choose the Right Tool (Analytical Models): You’ll need to summarise sales patterns and maybe even predict demand — so you need to choose the right level of analysis.
+
+Other skills, like Presentation & Communication or Computational Skills, depend more on the context — if you're presenting to managers, communication is key; if scaling the solution with a model over multiple markets, coding might matters more. Not every analyst will use every skill on every problem, but strong solutions often involve a mix of both essential and context-specific skills.
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-solutions -->

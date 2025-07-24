@@ -1,0 +1,93 @@
+<!-- question-type: prepare -->
+### Exercise 3: Identifying a research question
+Write a research question that could help David Jones improve its inventory decisions.
+
+::: {.callout-tip}
+Try to make your research question clear, specific, and something that could be answered with data. 
+:::
+
+<!-- BEGIN PROFILE:r-teaching-guide -->
+::: {.content-visible when-profile="r-teaching-guide"}
+
+::: {.teaching-block}
+
+::: {.teaching-block-header}
+Teaching Note
+:::
+
+::: {.teaching-block-body}
+
+🎯 Learning Objective
+Students should:
+
+- Practise formulating clear, specific, and data-answerable research questions
+- Connect the research question to a real business decision
+- Distinguish between general curiosity and decision-relevant analysis
+
+✅  **Core Concetpts to Highlight**
+
+A good research question is:
+
+1. Understandable: Clearly stated without jargon
+2. Answerable: Could be answered with available or plausible data
+3. Actionable: Linked to a decision or business problem (e.g., inventory allocation, promotion timing)
+
+Common structures:
+
+- How does [variable] vary across [group/time]…?
+- What is the effect of [action] on [outcome]…?
+
+For this case, research questions might relate to:
+
+- Differences across regions or weeks
+- Effects of promotions or price changes
+- Indicators of future demand
+
+💬 **Suggested In-Class Prompts**
+“How would your question help someone make a better inventory decision?”
+
+“Does your question require data David Jones is likely to have?”
+
+“How would you know if your question was too broad — or too narrow?”
+
+📌 **Common Misunderstandings**
+Asking questions that are too vague (e.g., “How can inventory be better?”)
+
+Asking questions that are interesting but not decision-relevant (e.g., “Do customers prefer gift hampers or beauty boxes?”)
+
+Forgetting to tie the question back to timing, location, or product-level decisions
+
+📝 **Optional Extension Prompt**
+
+“Rewrite your group’s question to make it more specific or more clearly tied to a business decision.”
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-teaching-guide -->
+
+<!-- BEGIN PROFILE:r-solutions -->
+::: {.content-visible when-profile="r-solutions" when-profile="r-teaching-guide"}
+
+::: {.solution-block}
+
+::: {.solution-block-header}
+Solution
+:::
+
+::: {.solution-block-body}
+
+**Research question:**
+How does weekly demand for holiday gift hampers differ between Sydney and Melbourne in the four weeks leading up to Christmas?
+
+This question is clear and specific, and could be answered using last year’s sales data. It helps David Jones decide whether to adjust regional delivery quantities and whether the current fixed restocking rule is appropriate for both locations.
+
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-solutions -->

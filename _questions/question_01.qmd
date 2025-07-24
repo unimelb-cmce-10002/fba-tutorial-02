@@ -1,0 +1,88 @@
+<!-- question-type: prepare -->
+### Exercise 1: What is Inventory Management?
+
+Watch the video "[Inventory Management in 11 minutes](https://www.youtube.com/watch?v=0NOER-Lle-0)" and a write 2–3 sentence summary of what you learned. Try to connect what you hear in the video to the challenge David Jones is facing: what makes inventory management tricky, and why is it so important?
+
+<!-- BEGIN PROFILE:r-teaching-guide -->
+::: {.content-visible when-profile="r-teaching-guide"}
+
+::: {.teaching-block}
+
+::: {.teaching-block-header}
+Teaching Note
+:::
+
+::: {.teaching-block-body}
+
+🎯 **Learning Objective** 
+Students should:
+
+- Understand inventory management as the process of balancing supply and demand
+- Identify why inventory decisions are strategic and data-driven, not just logistical
+- Recognise core inventory concepts and relate them to a real-world retail scenario (David Jones)
+
+✅  **Core Concetpts o Highlight**
+
+Inventory Management is the process of planning, tracking, and controlling stock so that a business can meet customer demand without holding excess or running out.
+
+In the video, three key techniques are introduced:
+
+**Economic Order Quantity (EOQ):**
+A formula used to determine the optimal quantity to order that minimises total inventory costs — including both ordering costs and holding costs.
+
+Think of EOQ as the sweet spot: not too frequent, not too much.
+
+**Safety Stock:**
+Extra buffer stock kept on hand to prevent stockouts due to unexpected spikes in demand or delays in delivery.
+
+It’s like a “just-in-case” cushion for uncertainty.
+
+**Reorder Point:**
+The inventory level at which a new order should be placed so stock arrives before you run out.
+
+It accounts for delivery lead time + expected demand.
+
+
+💬 **Suggested In-Class Prompts** (if needed)
+
+“What’s the risk if David Jones doesn’t hold safety stock during Christmas season?”
+
+“EOQ works best in steady environments — what challenges do seasonal spikes present?”
+
+“How might reorder points look different for Sydney vs. Melbourne?”
+
+📌 **Common Misunderstandings**
+
+- Assuming inventory management is just about tracking inventory, not planning it.
+- Missing the link between inventory and broader business strategy (e.g. promotions, customer satisfaction, working capital).
+- Confusing EOQ with a fixed rule — it’s a model that changes with cost and demand inputs.
+
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-teaching-guide -->
+
+<!-- BEGIN PROFILE:r-solutions -->
+::: {.content-visible when-profile="r-solutions" when-profile="r-teaching-guide"}
+
+::: {.solution-block}
+
+::: {.solution-block-header}
+Solution
+:::
+
+::: {.solution-block-body}
+
+Inventory management is the process of **planning, tracking, and controlling stock** to ensure a business has the right products available at the right time — without holding too much or too little. 
+
+Techniques like **Economic Order Quantity (EOQ), safety stock, and reorder points** help businesses decide when and how much to reorder to avoid stockouts or excess inventory. 
+
+For David Jones, good inventory management is essential during the holiday season, when **demand for gift hampers can spike quickly** — poor planning could mean lost sales, unhappy customers, or leftover stock that must be heavily discounted.
+:::
+
+:::
+
+:::
+<!-- END PROFILE:r-solutions -->
