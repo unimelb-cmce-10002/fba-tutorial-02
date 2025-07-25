@@ -21,7 +21,7 @@ Students should:
 - Identify why inventory decisions are strategic and data-driven, not just logistical
 - Recognise core inventory concepts and relate them to a real-world retail scenario (David Jones)
 
-✅  **Core Concetpts o Highlight**
+✅  **Core Concepts to Highlight**
 
 Inventory Management is the process of planning, tracking, and controlling stock so that a business can meet customer demand without holding excess or running out.
 

@@ -23,7 +23,7 @@ Students should:
 - Recognise why traditional cost-minimising models (like lean or just-in-time) may fail under uncertainty
 - Apply this idea to real retail planning at David Jones, especially during seasonal peaks
 
-✅  **Core Concetpts to Highlight**
+✅  **Core Concepts to Highlight**
 
 **Efficiency vs. Flexibility Trade-off:**
 Traditional models aim to reduce waste and cost (e.g. lean, EOQ), but this can create vulnerability when demand is volatile or supply chains are disrupted.

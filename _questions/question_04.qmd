@@ -23,7 +23,7 @@ Think beyond sales totals to consider timing, location, operations, and marketin
 
 Practise connecting data sources to concrete decisions (e.g., ordering, pricing, promotion)
 
-✅  **Core Concetpts to Highlight**
+✅  **Core Concepts to Highlight**
 
 Sales data: Disaggregated by region, product, and time — foundational for demand forecasting.
 

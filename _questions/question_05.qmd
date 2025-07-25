@@ -21,7 +21,7 @@ Students should:
 - Recognise that different problems require different mixes of skills
 - Reflect on their own strengths and development areas
 
-✅  **Core Concetpts to Highlight**
+✅  **Core Concepts to Highlight**
 
 Introduce or reinforce the 8 skills of a business scientist from the FBA book:
 
@@ -94,7 +94,7 @@ Arguably, the most essential here are:
 2. Ask the Right Questions (Creativity & Judgment): You must turn the inventory issue into focused, answerable questions about demand patterns and delivery timing.
 3. Choose the Right Tool (Analytical Models): You’ll need to summarise sales patterns and maybe even predict demand — so you need to choose the right level of analysis.
 
-Other skills, like Presentation & Communication or Computational Skills, depend more on the context — if you're presenting to managers, communication is key; if scaling the solution with a model over multiple markets, coding might matters more. Not every analyst will use every skill on every problem, but strong solutions often involve a mix of both essential and context-specific skills.
+Other skills, like Presentation & Communication or Computational Skills, depend more on the context — if you're presenting to managers, communication is key; if scaling the solution with a model over multiple markets, coding might matter more. Not every analyst will use every skill on every problem, but strong solutions often involve a mix of both essential and context-specific skills.
 :::
 
 :::

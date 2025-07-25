@@ -58,7 +58,7 @@ Students should:
 - Identify predictive warning signs in the data
 - Begin developing causal hypotheses (e.g. “sales increased because of promotion or price drop”)
 
-✅  **Core Concetpts to Highlight**
+✅  **Core Concepts to Highlight**
 
 Descriptive vs. Predictive vs. Causal lenses:
 

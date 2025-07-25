@@ -28,7 +28,7 @@ Students should:
 - Learn to state what they recommend and why, without jargon
 - Demonstrate data reasoning through a concise business narrative
 
-✅  **Core Concetpts o Highlight**
+✅  **Core Concepts o Highlight**
 
 Data → Insight → Action chain:
 

@@ -26,7 +26,7 @@ Students should:
 - Understand how different analytical perspectives (descriptive, predictive, causal) shape decision-making
 - Recognise the value of group diversity in thinking and approach
 
-✅  **Core Concetpts o Highlight**
+✅  **Core Concepts to Highlight**
 
 Reflection is an essential part of learning analytics — analysts must regularly evaluate:
 

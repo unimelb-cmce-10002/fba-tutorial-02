@@ -26,7 +26,7 @@ Students should:
 - Acknowledge and question the assumptions behind their recommendations
 - Use descriptive, predictive, or causal thinking to justify allocation choices
 
-✅  **Core Concetpts o Highlight**
+✅  **Core Concepts to Highlight**
 
 - Data-informed allocation: Matching supply to past observed demand
 - Proportional decision logic: A simple but reasoned approach when detailed forecasting isn’t possible
