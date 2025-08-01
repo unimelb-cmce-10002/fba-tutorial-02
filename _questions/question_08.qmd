@@ -1,11 +1,10 @@
 <!-- question-type: inclass -->
-### Exercise 8: Planning for This Year's Holiday Season
+### Exercise 8: Write Your Own Code
 
-David Jones’ supplier is asking you to confirm delivery quantities **now**, so they can prepare for the season ahead.
-
-(a) How many units should you order for Sydney and Melbourne for the first week of the holiday season?
-(b) Justify your decision based on last year's patterns and your reasoning. Consider factors like demand trends, regional differences, price effects, and promotion timing.
-(c) Suppose the supplier has limited capacity and can only supply 200 units total for the first week.  How would you allocate this stock between Sydney and Melbourne? What are the risks of your choice?
+a. Add new code chunk to store a vector, called `my_vector` that contains each of the numbers 1 through 5. You can produce that vector using `c(1,2,3,4,5)`
+b. Calculate the mean of `my_vector` by applying the `mean()` function.
+c. Add a comment above your code that computes the mean to describe what it does. You can add a comment using the hashtag to start a line inside an R chunk like this `# This is a comment`
+d. Now use the Console to search for help on the function that returns the median value in a numeric vector, `?median`.
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,39 +21,38 @@ Teaching Note
 
 Students should:
 
-- Practise translating data patterns into constrained decisions
-- Acknowledge and question the assumptions behind their recommendations
-- Use descriptive, predictive, or causal thinking to justify allocation choices
+- Create and store a numeric vector in R using `c()`
+- Apply basic built-in functions (`mean()`, `median()`) to a vector
+- Add meaningful code comments using `#`
+- Use R’s help system to explore and understand functions independently
+
+This question strengthens fluency with R syntax and introduces good habits around documentation and self-help.
 
 ✅  **Core Concepts to Highlight**
 
-- Data-informed allocation: Matching supply to past observed demand
-- Proportional decision logic: A simple but reasoned approach when detailed forecasting isn’t possible
-- Explicit assumption-making: Good analysts acknowledge what they don’t know
-- This is an opportunity to model real-world decision-making under uncertainty, where you must act now but only have imperfect information.
+- Vectors are the fundamental data structure in R — c() combines values into a vector
+- Functions operate on objects — here mean() and median() summarize a vector
+- Code comments improve clarity and make code easier to understand
+- The help system (`?function_name`) is how analysts explore arguments, usage, and examples directly in R. Also show how to get help in the help pane.
 
 💬 **Suggested In-Class Prompts**
 
-“Why did you choose that allocation? What data supports it?”
+“What’s the difference between `mean(my_vector)` and `median(my_vector)`?”
 
-“What assumptions are you making about demand this year?”
+“Try changing your vector — what happens to the mean vs. the median if you add an extreme number?”
 
-“Push students to explain why they trust last year’s data. Should we assume stability year over year?”
+“How could you find out what other arguments a function accepts?”
 
-“Encourage groups to discuss how their allocation might go wrong — not just defend it.”
+“Why might a comment be useful even when the code is ‘obvious’?”
 
-“Challenge groups that split 100/100: is that fair or just easy?”
+You can extend this into a discussion of robustness or communication depending on time.
 
 📌 **Common Misunderstandings**
 
-* Assuming last year = this year without qualification
-* Ignoring how promotion timing or external events could shift demand
-* Failing to discuss risks or alternatives in case of misallocation
-* Treating equal splits as default fairness (rather than strategic decision)
-
-📝 **Optional Extension Prompt**
-
-What if you could change the delivery proportions in earlier weeks (still assuming a 200 unit cap in total?) Might that change your answer?
+- Forgetting to assign the vector to a variable (`my_vector <- ...`)
+- Typing `mean = (my_vector)` instead of `mean(my_vector)` — parentheses vs. equals
+- Writing comments incorrectly (e.g. forgetting the `#`, or placing it inside a code line)
+- Typing `?median` inside the document rather than the Console — remind them the Console is for help and experimentation
 
 :::
 
@@ -74,40 +72,34 @@ Solution
 
 ::: {.solution-block-body}
 
-**Unconstrained scenario:**
+**a.**
 
-Based on last year’s sales in the first week of the season (25 Nov), Melbourne sold 150 units while Sydney sold 100. Given this pattern and **assuming similar demand and pricing this year**, we recommend ordering:
+```{r}
+my_vector <- c(1,2,3,4,5)
+```
 
-- Melbourne: 150 units
-- Sydney: 100 units
 
-This matches observed demand and adjusts the previous fixed rule to better reflect regional differences.
+**b.**
+```{r}
+mean(my_vector)
 
-**Constrained Scenario:** 
+# or 
+my_mean <- mean(my_vector)
+print(my_mean)
+```
 
-Based on last year’s Week 1 sales (25 Nov), Melbourne sold 150 units and Sydney sold 100 — a 60:40 demand split. Assuming similar demand patterns this year, we propose the following allocation:
+**c.**
+```{r}
+# this code computes the mean and stores it
+my_mean <- mean(my_vector)
+print(my_mean)
+```
 
-Melbourne: 120 units
+**d.**
 
-Sydney: 80 units
-
-This proportional allocation preserves observed demand ratios while fitting within the 200-unit constraint.
-
-Assumptions:
-
-- We assume last year’s demand is a reasonable guide for this year.
-- We assume supply constraints are fixed and inflexible (i.e. we can't reorder mid-season).
-- We assume there are no major regional marketing changes this year (e.g. no extra advertising / price changes).
-
-Risks:
-
-- If demand increases (e.g. due to earlier or stronger promotions), understocking is likely.
-- If regional patterns shift, the proportional rule may misallocate units — e.g. underestimating growth in Sydney.
-- Without real-time data, it’s hard to adjust — we’d ideally revisit this weekly.
-
-Data reasoning:
-
-Our decision uses descriptive analysis (last year’s observed sales), predictive reasoning (similar patterns expected), and light causal inference (we infer regional differences reflect customer demand, not supply issues).
+```{r, eval = FALSE}
+?median
+```
 
 :::
 

@@ -1,14 +1,24 @@
 <!-- question-type: inclass -->
-### Exercise 6: Defining a Problem and Crafting Questions
+### Exercise 6: Logging into PositCloud 
 
-(a) Share your draft research questions with your group.
-(b) Discuss which questions are clear? Which are answerable with data? Which could help David Jones make a better decision?
-(c) Which of the proposed questions is the "best". Explain why.
+::: {.callout-caution}
+## Content Pivot
 
-::: {.callout-tip} 
-## Conversation prompt  
-Are your group's questions descriptive (what happened), predictive (what will happen), or causal (why did it happen)? How does that shape the analysis?
+In this week's Workshop we are pivoting midway through to give you more time to get comfortable with the computing environment for this class, PositCloud. 
+
+We know this is a sudden pivot in content. 
+In future weeks, we don't anticipate sudden jumps in content in the middle of a session.
 :::
+
+Log in to Posit Cloud and launch your project.
+
+a. Go to https://posit.cloud and log in using your university credentials.
+b. Navigate to the “Shared with Me” tab on the left sidebar.
+c. Find the project titled FBA - Getting Started (or your instructor will tell you the correct name).
+d. Click the project to open it.
+e. Wait for the RStudio session to finish loading — you should see the Console, Files, and Environment panes.
+
+!!!! Lachlan Needs to check these are the correct steps.
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -24,58 +34,36 @@ Teaching Note
 🎯 Learning Objective
 Students should:
 
-Practise evaluating research questions against business and analytical criteria
+- Successfully log in to Posit Cloud and navigate the interface
+- Locate and open the correct instructor-provided project
+- Understand the structure of the RStudio workspace
+- Confirm that they are working in the correct project and directory
 
-Begin to distinguish between descriptive, predictive, and causal questions
-
-Understand what makes a research question valuable in a business context
+This builds student confidence using cloud-based tools and ensures they’re in the right place before starting analytical tasks.
 
 ✅  **Core Concepts to Highlight**
 
-A good business analytics question should be:
-
-- Clear and specific
-- Avoids vague terms like "better" or "improve" without context
-- Clearly defines what is being measured, where, and when
-- Answerable with available or realistic data
-- Avoids overly hypothetical questions or those requiring data that doesn’t exist
-- Anchored in what the company could actually track (sales, promotions, delivery times, etc.)
-- Tied to a business decision
-- Supports action: changes in ordering, pricing, promotion, or staffing
-- Doesn’t just explore curiosity — it has a “so what?”
-- Appropriately scoped
-- Not too broad (e.g. “How can David Jones improve Christmas?”)
-- Not too narrow (e.g. “What happened on Dec 14 in Sydney?”)
-
-Also, encourage students to classify the question type:
-
-- Descriptive: What happened?
-- Predictive: What is likely to happen?
-- Causal: What effect did X have on Y?
-
-Each type suggests different methods and data needs — and possibly different risks.
+- Cloud project structure: Posit Cloud projects are self-contained — each one has its own files, history, and environment.
+- RStudio layout: Point out key panes (Console, Files, Environment, Viewer) and how they support different tasks.
+- Working directory: Everything they run depends on being in the right project folder — `getwd()` confirms that.
 
 💬 **Suggested In-Class Prompts**
 
-“Does this question support a business decision?”
+“Where do you see the project name? Can you confirm you're in the right one?”
 
-“Would a manager care about the answer to this question?”
+“Try typing `getwd()` into the console — what do you see?”
 
-“Could you realistically answer it with data from last year?”
+“Let’s take 30 seconds to explore the Files pane — what kinds of files are already there?”
 
-“Is the question asking what happened (descriptive), what might happen (predictive), or why it happened (causal)?”
+“If something seems missing or strange, what should you check first?”
+
+Encourage light troubleshooting and peer support (e.g. “Check with the person next to you”).
 
 📌 **Common Misunderstandings**
 
-Thinking the most complex question is the best
-
-Overemphasising academic phrasing over business clarity (there'll be plenty of that later in their degree!)
-
-Failing to justify why the chosen question is more useful than others
-
-📝 **Optional Extension Prompt**
-
-“Revise one of your group's questions using what you’ve learned. How would you make it clearer, more answerable, or more useful?”
+- Students land on the wrong project (e.g., open a different shared file or get stuck in the homepage)
+- Not realizing the RStudio session takes time to load (they try to click too fast or think it’s broken)
+- Overlooking the getwd() check — leading to file errors later
 
 :::
 
@@ -95,17 +83,7 @@ Solution
 
 ::: {.solution-block-body}
 
-There is no single “correct” research question. Instead, a your discussion should have focussed on:
-
-1. A clear set of criteria for judging research questions, such as:
-    - Clarity: Is the question specific and easy to understand?
-    - Answerability: Could we answer it with available or realistic data?
-    - Business relevance: Would answering this help David Jones make a better inventory decision?
-    - Scope: Is it neither too vague nor too narrow?
-    - Analytical orientation: Is the question descriptive, predictive, or causal — and is that a good fit for the business problem?
-
-✅ 2. A clear justification of which question is “best”
-The group should select the most decision-relevant question and explain why it would be most useful to investigate.
+Student successfully logs in to PositCloud and launches the project "Tutorial 2".
 
 :::
 

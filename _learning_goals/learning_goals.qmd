@@ -3,5 +3,9 @@
 
 By the end of this tutorial, you should be able to:
 
-- TBD
+- Apply the core skills of a business scientist to analyze a real-world operational challenge.
+- Evaluate the clarity, feasibility, and business relevance of peer-generated research questions and analytical plans.
+- Create a structured approach to an open-ended business problem that integrates the necessary core skills of a business scientist
+- Apply basic R and Quarto skills to edit and execute code in PositCloud.
+- Interpret and modify simple R code.
 :::
