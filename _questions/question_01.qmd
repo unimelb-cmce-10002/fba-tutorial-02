@@ -1,7 +1,23 @@
 <!-- question-type: prepare -->
-### Exercise 1: What is Inventory Management?
+### Exercise 1: Identifying the key concepts
 
-Watch the video "[Inventory Management in 11 minutes](https://www.youtube.com/watch?v=0NOER-Lle-0)" and a write 2–3 sentence summary of what you learned. Try to connect what you hear in the video to the challenge David Jones is facing: what makes inventory management tricky, and why is it so important?
+Watch this short news story:
+"[Uber drivers creating artificial surge prices](https://www.abc.net.au/news/2025-07-29/uber-drivers-creating-artificial-surge-prices/105582350)" (ABC News, 29 July 2025).
+
+In your own words, define the following key terms or ideas mentioned in the article:
+
+- Surge pricing
+- Algorithmic pricing
+- Platform manipulation
+- Driver incentives
+
+
+::: {.callout-tip}
+You don’t need to provide formal or technical definitions. Focus on explaining each concept in your own words, based on how it was used in the video.
+:::
+
+
+
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -17,45 +33,31 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- Understand inventory management as the process of balancing supply and demand
-- Identify why inventory decisions are strategic and data-driven, not just logistical
-- Recognise core inventory concepts and relate them to a real-world retail scenario (David Jones)
+
+- Understand how platform pricing mechanisms like surge pricing work in theory and in practice
+- Identify how user behavior and incentives can create unintended consequences in algorithmic systems
 
 ✅  **Core Concepts to Highlight**
 
-Inventory Management is the process of planning, tracking, and controlling stock so that a business can meet customer demand without holding excess or running out.
-
-In the video, three key techniques are introduced:
-
-**Economic Order Quantity (EOQ):**
-A formula used to determine the optimal quantity to order that minimises total inventory costs — including both ordering costs and holding costs.
-
-Think of EOQ as the sweet spot: not too frequent, not too much.
-
-**Safety Stock:**
-Extra buffer stock kept on hand to prevent stockouts due to unexpected spikes in demand or delays in delivery.
-
-It’s like a “just-in-case” cushion for uncertainty.
-
-**Reorder Point:**
-The inventory level at which a new order should be placed so stock arrives before you run out.
-
-It accounts for delivery lead time + expected demand.
+See solution.
 
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-“What’s the risk if David Jones doesn’t hold safety stock during Christmas season?”
+“How is surge pricing supposed to work, and what problem is it trying to solve?”
 
-“EOQ works best in steady environments — what challenges do seasonal spikes present?”
+“What does ‘platform manipulation’ mean in this context—and why is it tricky to define?”
 
-“How might reorder points look different for Sydney vs. Melbourne?”
+“What’s the difference between an incentive and a manipulation? Where’s the line?”
+
+“In your own words, how would you explain algorithmic pricing to someone unfamiliar with Uber?”
 
 📌 **Common Misunderstandings**
 
-- Assuming inventory management is just about tracking inventory, not planning it.
-- Missing the link between inventory and broader business strategy (e.g. promotions, customer satisfaction, working capital).
-- Confusing EOQ with a fixed rule — it’s a model that changes with cost and demand inputs.
+- Confusing surge pricing with price gouging (important to clarify dynamic pricing vs. illegal/unethical behavior)
+- Thinking algorithmic pricing means prices are random or purely based on time/location, rather than live supply and demand
+- Assuming platform manipulation always requires hacking or illegal activity, rather than strategic exploitation of platform rules
+- Believing incentives are just bonuses, not tools for shaping behavior and aligning platform goals with user decisions
 
 :::
 
@@ -74,12 +76,17 @@ Solution
 :::
 
 ::: {.solution-block-body}
+**Surge Pricing**
+A dynamic pricing system used by Uber to increase fares when demand from riders exceeds the number of available drivers in an area. It’s designed to encourage more drivers to come online during peak times by offering higher earnings.
 
-Inventory management is the process of **planning, tracking, and controlling stock** to ensure a business has the right products available at the right time — without holding too much or too little. 
+**Algorithmic Pricing**
+The automated process by which Uber’s system adjusts fares based on real-time data like supply, demand, traffic, and location. Prices are determined not by a person but by algorithms using live inputs.
 
-Techniques like **Economic Order Quantity (EOQ), safety stock, and reorder points** help businesses decide when and how much to reorder to avoid stockouts or excess inventory. 
+**Platform Manipulation**
+When users—drivers in this case—intentionally alter their behavior to exploit the rules or algorithms of a digital platform to their advantage. In the video, this involves drivers coordinating to log off in order to trigger artificial price surges.
 
-For David Jones, good inventory management is essential during the holiday season, when **demand for gift hampers can spike quickly** — poor planning could mean lost sales, unhappy customers, or leftover stock that must be heavily discounted.
+**Driver Incentives**
+The rewards or earning opportunities Uber offers to encourage certain behaviors—like staying online during busy times, completing a certain number of rides, or accepting trips in high-demand areas. These incentives shape driver decisions and are central to how the platform functions.
 :::
 
 :::

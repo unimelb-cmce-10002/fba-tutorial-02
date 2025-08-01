@@ -1,9 +1,22 @@
-### Exercise 2: Approaches to Inventory Planning 
-
-Read the article, "[A New Approach to Production and Inventory Planning](https://hbr.org/2023/09/a-new-approach-to-production-and-inventory-planning)," and answer the following questions in  2–3 sentences:
 <!-- question-type: prepare -->
-(a) What is one key challenge businesses face in managing inventory today?
-(b) How could this apply to a retailer like David Jones, especially during busy seasons like Christmas?
+### Exercise 2: Explaining Context and Identifying a Research Question 
+
+Uber’s pricing system is designed to respond to real-time supply and demand. But as the video shows, driver behavior can complicate this—sometimes in ways the algorithm wasn’t built to anticipate.
+
+Imagine you’re part of a team investigating the situation in Sydney and Melbourne.
+
+In 3–4 sentences, explain how you would define the problem for Uber. Then, write one clear research question that your team could use to guide further analysis.
+
+
+
+::: {.callout-tip}
+To help you think through this, you might want to consider the following:
+
+- What’s really going wrong here? 
+- Why does it matter to the business? 
+- What kind of evidence or data would help clarify the situation?
+:::
+
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -19,36 +32,35 @@ Teaching Note
 
 Students should:
 
-- Understand the strategic trade-offs between efficiency and responsiveness in inventory systems
-- Recognise why traditional cost-minimising models (like lean or just-in-time) may fail under uncertainty
-- Apply this idea to real retail planning at David Jones, especially during seasonal peaks
+- Practice defining ambiguous real-world business problems clearly and concisely
+- Identify the types of evidence needed to investigate a complex pricing or behavioral issue
+- Practice formulating a clear and focused research question grounded in platform context
+- Begin bridging the gap between business problems and analytical investigation
 
 ✅  **Core Concepts to Highlight**
 
-**Efficiency vs. Flexibility Trade-off:**
-Traditional models aim to reduce waste and cost (e.g. lean, EOQ), but this can create vulnerability when demand is volatile or supply chains are disrupted.
+**Business Problem Framing**
+Before launching into analysis, analysts must clarify what problem they’re trying to solve. In platform settings, this often means understanding how system design interacts with user incentives—and how those interactions produce outcomes that may be unintended or inefficient.
 
-**Resilience in Inventory Planning:**
-The article recommends incorporating uncertainty buffers, scenario planning, and dynamic reforecasting into modern inventory models.
+**Context Before Data**
+Students should be encouraged to think about the institutional setup (platform rules, incentive structures, reputational concerns) before asking “what data do I need?” This encourages more grounded and relevant analysis.
 
-**Strategic Implication for Retailers:**
-Seasonal demand (like Christmas) is inherently unpredictable. Retailers like David Jones must plan not only for expected demand but also for variance in demand — including regional differences and promotional effects.
+**Research Questions as Navigation Tools**
+Good research questions are specific, measurable, and decision-relevant. They give direction to an investigation without assuming the answer in advance.
 
 💬 Suggested In-Class Prompts
 
-“Why might a perfectly efficient system become a liability during the holidays?”
+“What wouldn’t be a useful research question in this case—and why?”
 
-“What types of uncertainty does David Jones face when planning inventory?”
+“What data might exist already, and what data might need to be created or requested?”
 
-“How would you build flexibility into a retail inventory strategy?”
-
-“Can you think of a real example where a store ran out of something during a big shopping period?”
+“How might Uber’s business model shape what kinds of questions are ‘worth answering’?”
 
 📌 **Common Misunderstandings**
 
-- Believing that efficiency (lean, just-in-time) is always the best strategy
-- Assuming you can forecast demand precisely — students often forget to account for uncertainty
-- Treating inventory planning as purely operational rather than strategic and data-informed
+- Writing a research question that is too vague or too narrow
+- Ignoring the broader context—platform incentives, reputation, fairness, policy—in favor of only technical details
+- Forgetting that a research question isn’t just for academic purposes—it’s a tool for making better decisions
 
 :::
 
@@ -68,11 +80,15 @@ Solution
 
 ::: {.solution-block-body}
 
-(a)
-One key challenge is balancing efficiency with flexibility. Many traditional inventory systems aim to minimise costs by keeping stock levels low (like with just-in-time models), but these systems struggle when there is uncertainty or sudden changes in demand. This makes businesses vulnerable to stockouts or delays when things don’t go as planned.
+**NOTE: This is just one possible way to approach the problem. Your answer might look different depending on what you chose to focus on—and that’s a good thing. This sample reflects a perspective you might take if you were thinking like someone who studies how markets work and how firms and individuals behave within them*
 
-(b)
-David Jones experiences unpredictable demand spikes during the holiday season. If they rely on a rigid or overly efficient inventory rule, they risk running out of popular items like gift hampers or over-ordering and being left with excess stock. To avoid this, they need a more flexible approach that can adjust to regional sales trends, promotion effects, and delivery timing issues.
+Uber’s pricing system is designed to balance rider demand and driver supply, but when drivers strategically log off to create artificial scarcity, the algorithm is misled. 
+This causes prices to surge even when demand hasn’t truly increased. 
+That threatens rider trust, distorts platform efficiency, and creates unfair earning opportunities for some drivers at the expense of others. 
+To properly assess the situation, we’d want to look at platform data showing coordinated log-off/on patterns across regions and time, and compare those with pricing demand, and driver-riding match outcomes.
+
+**Research question:**
+To what extent does coordinated driver log-off behavior inflate surge pricing in Sydney and Melbourne, and what impact does this have on rider wait times and fare levels?
 :::
 
 :::

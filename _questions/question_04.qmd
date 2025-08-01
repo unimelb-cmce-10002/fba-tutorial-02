@@ -1,7 +1,21 @@
-<!-- question-type: prepare -->
-### Exercise 4: Identifying Data 
-If you were working as an analyst at David Jones, what types of data would you want to collect to help manage inventory effectively?
-List at least three kinds of data.
+<!-- question-type: inclass -->
+### Exercise 4: Defining a Problem and Crafting Questions
+
+(a) Share your business context descriptions and research questions (from Question 2) with your group.
+
+(b) As a group, discuss:
+
+- Which context descriptions are clear and well-framed?
+- Which research questions are answerable using data?
+- Which questions are most likely to help Uber make a better decision?
+
+(c) Choose the best research question your group came up with.
+Write down the question and explain why you chose it. What makes it clear, useful, or powerful?
+:
+:: {.callout-tip} 
+## Conversation prompt  
+Are your group's questions descriptive (what happened), predictive (what will happen), or causal (why did it happen)? How does that shape the analysis?
+:::
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -17,37 +31,62 @@ Teaching Note
 🎯  **Learning Objective**
 Students should:
 
-Recognise the variety of data types relevant to inventory decisions
-
-Think beyond sales totals to consider timing, location, operations, and marketing
-
-Practise connecting data sources to concrete decisions (e.g., ordering, pricing, promotion)
+- Practice designing an analytical approach to an open-ended business problem
+- Demonstrate an understanding of how business theory, data discovery, and modeling fit together
+- Reflect on how different business scientist skills are activated in real investigations
+- Begin thinking about how to communicate findings clearly to decision-makers
 
 ✅  **Core Concepts to Highlight**
 
-Sales data: Disaggregated by region, product, and time — foundational for demand forecasting.
+Strong context descriptions:
 
-Operational data: Inventory levels, delivery lead times, stockouts — needed for supply planning.
+- Show awareness of how the platform operates (e.g. how surge pricing works, what drivers see, what Uber optimizes for)
+- Include relevant institutional details like incentives, geography, timing, and stakeholder perspectives (drivers, riders, Uber’s trust and operations teams)
+- Avoid generic or vague descriptions like “Uber’s app isn’t working well” or “there’s a pricing issue”
+- Reflect a thoughtful diagnosis of the situation before jumping to a solution
 
-Marketing data: Promotion schedules, price changes, advertising — useful for understanding demand spikes.
+In a platform setting like Uber, a good research question should be:
 
-Customer data: Foot traffic, preferences, order patterns — can help in longer-term planning.
+- Clear and specific — avoids vague terms like “better” or “fix the problem”
+- Framed with context — refers to real parts of the business (pricing, driver activity, customer experience)
+- Answerable with realistic data — logs, timing, location, earnings, cancellations, etc.
+- Tied to a decision — ideally something Uber could act on: detection, prevention, communication, or redesign
+- Appropriately scoped — not too broad, not too narrow
 
-Principle: Good inventory decisions rely on data across teams/business functionalities — not just sales.
+Also introduce the three types of analytical questions:
+
+- Descriptive: What happened?
+- Predictive: What’s likely to happen next?
+- Causal: Did X cause Y?
+
+Each type implies different methods, assumptions, and risks. Encourage students to identify what kind of question their group’s best option is.
 
 💬 **Suggested In-Class Prompts**
 
-“What data would you ask for first if you were joining the David Jones inventory team today?”
+“Which context descriptions in your group showed a strong understanding of how Uber’s platform works?”
 
-“How would you use sales data differently from promotion data?”
+“Which ones helped you see why the issue matters—not just what the issue is?”
 
-“Can you make a strong inventory decision without knowing delivery lead times?”
+“What kind of knowledge helped make those descriptions clearer or more useful?”
+
+“Would this question help a decision-maker at Uber do something differently?”
+
+“What data would we need to answer it—and could Uber reasonably access that?”
+
+“Is the question asking about what happened, what will happen, or why it happened?”
+
+“Why is this group’s research question stronger than others? What makes it more actionable or insightful?”
 
 📌 **Common Misunderstandings**
 
-- Focusing only on sales and ignoring supply-side factors
-- Listing data without explaining how it would help (encourage justification!)
-- Confusing nice-to-have data (e.g. customer opinions) with essential operational data
+- Restating the article without adding interpretation or business context
+- Describing symptoms but not identifying what might be causing them
+- Ignoring how the platform’s design and incentives shape user behavior
+- Choosing overly vague or sweeping questions with no clear path to analysis
+- Treating more complicated or technical questions as automatically better
+- Ignoring the platform dynamics—forgetting Uber has to serve both riders and drivers
+- Prioritizing clever phrasing over clarity or business relevance
+- Overlooking that a great question sets up the whole project—it’s not just academic!
 
 
 
@@ -69,13 +108,18 @@ Solution
 
 ::: {.solution-block-body}
 
-**Weekly sales data by region** – This helps identify demand trends over time and differences between Sydney and Melbourne.
+There is no single “correct” research question. Instead, a your discussion should have focussed on:
 
-**Promotion calendar and price changes** – To understand how discounts or campaigns affect sales volume and timing.
+1. A clear set of criteria for judging context descriptions and research questions, such as:
+    - Clarity: Is the question specific and easy to understand?
+    - Answerability: Could we answer it with available or realistic data?
+    - Business relevance: Would answering this help Uber make better decision?
+    - Scope: Is it neither too vague nor too narrow?
+    - Analytical orientation: Is the question descriptive, predictive, or causal — and is that a good fit for the business problem?
 
-**Supplier delivery lead times** – So the team knows how far in advance they need to place orders to receive stock in time.
+2. A clear justification of which question is “best”
+The group should select the most decision-relevant question and explain why it would be most useful to investigate.
 
-Optional extras might include customer foot traffic, stockout incidents, or competitor activity if available. Other answers data sets that appear sensible are also OK to include.
 :::
 
 :::

@@ -107,9 +107,6 @@ There is no single “correct” research question. Instead, a your discussion s
 ✅ 2. A clear justification of which question is “best”
 The group should select the most decision-relevant question and explain why it would be most useful to investigate.
 
-A strong answer might be something like:
-
-“We chose this question because it helps us predict future demand across regions, which directly informs how many units to order. It's also answerable with the data we already have.”
 :::
 
 :::

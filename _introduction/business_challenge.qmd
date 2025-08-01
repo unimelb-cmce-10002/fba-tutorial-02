@@ -1,23 +1,7 @@
 ## The Business Challenge
 
-David Jones sells a wide range of seasonal products, including fashion items that see strong swings in demand around holidays like Christmas.
+Uber is facing a new challenge in cities like Sydney and Melbourne. Some drivers have found a way to game the surge pricing system by temporarily logging off in groups to reduce supply. This triggers a surge in prices—and when they log back in, they benefit from higher fares.
 
-Inventory decisions are especially challenging for seasonal products because:
+While this behavior doesn’t technically break any rules, it raises serious concerns. Should Uber treat it as clever strategy or as manipulation? Should it intervene—and if so, how? Cracking down too hard could upset drivers and hurt morale. Doing nothing might damage rider trust and public perception.
 
-- Demand can spike unpredictably
-- Promotions and discounts influence customer behaviour
-- Regional preferences can differ
-- Suppliers need advance notice to adjust deliveries
-
-Right now, David Jones is using a **fixed restocking rule**:  
-
-> *Every week, 100 units are delivered to each region, no matter what.*
-
-But with the holiday season approaching, this rigid approach might not be enough.  
-You’ve been asked to review the data and advise the company on how to improve its inventory decisions.
-
-Your task is to:  
-
-- Spot patterns in demand
-- Evaluate the effectiveness of the current restocking rule
-- Recommend improvements to ensure shelves are stocked — but not overstocked
+Uber’s analytics and operations teams need to investigate what’s really going on, what’s driving this behavior, and whether (and how) to respond in a way that balances fairness, incentives, and platform health.

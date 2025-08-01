@@ -1,9 +1,17 @@
 <!-- question-type: prepare -->
-### Exercise 3: Identifying a research question
-Write a research question that could help David Jones improve its inventory decisions.
+### Exercise 3: How to answer the question?
+Your manager turns to you and says:
+
+> “Where should we start?”
+
+In 3–5 bullet points, outline how you would approach the problem as a business scientist.
 
 ::: {.callout-tip}
-Try to make your research question clear, specific, and something that could be answered with data. 
+To help you think through this, you may want to integrate answers from the following questions:
+
+- What business or consumer theories might help you? 
+- What data would you want? 
+- What kind of methods might be useful?
 :::
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
@@ -20,46 +28,40 @@ Teaching Note
 🎯 Learning Objective
 Students should:
 
-- Practise formulating clear, specific, and data-answerable research questions
-- Connect the research question to a real business decision
-- Distinguish between general curiosity and decision-relevant analysis
+- Practice designing an analytical approach to an open-ended business problem
+- Demonstrate an understanding of how business theory, data discovery, and modeling fit together
+- Reflect on how different business scientist skills are activated in real investigations
+- Begin thinking about how to communicate findings clearly to decision-makers
 
 ✅  **Core Concepts to Highlight**
 
-A good research question is:
+**Problem Decomposition**
+Great analysts don’t jump straight to models—they break down the problem into smaller components: what’s happening, why it matters, and where to start looking.
 
-1. Understandable: Clearly stated without jargon
-2. Answerable: Could be answered with available or plausible data
-3. Actionable: Linked to a decision or business problem (e.g., inventory allocation, promotion timing)
+**Skill Integration**
+This question brings together earlier prep: contextual understanding (Q2), behavioral theory, data sourcing, method selection, and communication—all without explicitly naming the 8 skills. Let students make those connections organically.
 
-Common structures:
-
-- How does [variable] vary across [group/time]…?
-- What is the effect of [action] on [outcome]…?
-
-For this case, research questions might relate to:
-
-- Differences across regions or weeks
-- Effects of promotions or price changes
-- Indicators of future demand
+**Analytical Workflow**
+The answers should resemble a mini version of the business scientist workflow: explore the problem, seek input, find/validate data, form hypotheses, and communicate insights clearly.
 
 💬 **Suggested In-Class Prompts**
-“How would your question help someone make a better inventory decision?”
 
-“Does your question require data David Jones is likely to have?”
+“What’s the first thing you would do tomorrow if you were handed this case?”
 
-“How would you know if your question was too broad — or too narrow?”
+“Did you lean more toward behavioral theory, technical detection, or incentive design?”
+
+“How would your approach change if you were presenting to a more or less analytically proficient manager?”
+
+“What would be the hardest part to investigate with data—and how would you work around it?”
 
 📌 **Common Misunderstandings**
-Asking questions that are too vague (e.g., “How can inventory be better?”)
 
-Asking questions that are interesting but not decision-relevant (e.g., “Do customers prefer gift hampers or beauty boxes?”)
+- Giving answers that are too narrow (“just look at the log-off times”) without connecting to business theory or incentives
+- Jumping straight to machine learning or technical tools without considering the context or goals
+- Overlooking the importance of communicating findings to different stakeholders
+- Treating the problem like one of enforcement (e.g. “ban drivers”) rather than one of insight and design
 
-Forgetting to tie the question back to timing, location, or product-level decisions
 
-📝 **Optional Extension Prompt**
-
-“Rewrite your group’s question to make it more specific or more clearly tied to a business decision.”
 
 :::
 
@@ -79,10 +81,13 @@ Solution
 
 ::: {.solution-block-body}
 
-**Research question:**
-How does weekly demand for holiday gift hampers differ between Sydney and Melbourne in the four weeks leading up to Christmas?
+*NOTE: This is just one example of how a business scientist might approach the problem. There are many valid ways to begin—your bullet points may look different depending on what you chose to focus on.*
 
-This question is clear and specific, and could be answered using last year’s sales data. It helps David Jones decide whether to adjust regional delivery quantities and whether the current fixed restocking rule is appropriate for both locations.
+* I’d begin by identifying patterns in the data—looking for clusters of driver log-offs followed by sudden price surges in specific areas and time windows.
+* I’d talk to the driver operations or trust & safety team, and explore any external forums or social media platforms where drivers might coordinate or share surge-related tips.
+* I’d analyze log-on/off timing alongside fare increases and rider demand to see whether these patterns are statistically unusual or potentially coordinated.
+* I’d apply behavioral economics ideas to examine whether current incentive structures unintentionally reward this kind of behavior.
+* I’d prepare to present my findings using simple visuals and a short summary slide aimed at decision-makers—highlighting the problem, why it matters, and what questions still need answering.
 
 
 :::

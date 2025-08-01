@@ -1,4 +1,4 @@
-title: 'Tutorial 1 Teaching Solutions: Business Analytics Skills for Inventory Management'
+title: 'Tutorial 2 Solutions: Core Skills of a Business Scientist & Introduction to Posit Cloud'
 author: Foundations of Business Analytics
 date: today
 date-format: "MMMM, YYYY"
@@ -7,5 +7,5 @@ project:
     - tutorial.qmd
 format:
   html:
-    output-file: "tutorial-01-solutions"
+    output-file: "tutorial-02-solutions"
     output-ext:  "html"

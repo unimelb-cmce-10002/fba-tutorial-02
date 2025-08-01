@@ -1,6 +1,16 @@
-<!-- question-type: prep -->
-### Exercise 5: Skill Choices 
-What skills do you think does a business data analyst needs to solve this problem? Justify your answer.
+<!-- question-type: inclass -->
+### Exercise 5: Sketching Out the Way Forward 
+
+(a) Share your bullet point responses to Question 3 (“Where should we start?”) with your group.
+
+(b) As a group, discuss:
+
+- Which responses feel realistic and well thought-through?
+- Which ones show a good understanding of how business context and data interact?
+- Which approaches would be easiest to communicate to a stakeholder who doesn't know the data?
+
+(c) Choose the group member’s response that you think offers the strongest starting point.
+Write it down and explain why—what makes it practical, well-reasoned, or insightful?
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -17,56 +27,38 @@ Teaching Note
 
 Students should:
 
-- Connect the David Jones inventory problem to specific skills in the business scientist toolkit
-- Recognise that different problems require different mixes of skills
-- Reflect on their own strengths and development areas
+- Evaluate analytical plans based on how well they connect business context, data, and decision-making
+- Practice identifying what makes an analytical approach realistic, well-reasoned, and communicable
+- Begin to recognize the difference between technically impressive plans and strategically effective ones
 
 ✅  **Core Concepts to Highlight**
 
-Introduce or reinforce the 8 skills of a business scientist from the FBA book:
+**A strong plan does not need to be overly technical.**
+What matters is whether the steps are logical, feasible, and clearly connected to the business problem.
 
-1. Understand the Business World (Institutional Detail)
-Grasp seasonal patterns, logistics, and operations.
+Good responses should reflect:
 
-2. Find the Right Data (Data Discovery)
-Know what data exists, who owns it, and how to access it.
-
-3. Understand People and Firms (Business Theory)
-Explain why demand shifts — e.g. promotions, regional habits.
-
-4. Choose the Right Tool (Analytical Models)
-Use appropriate summaries or models to understand demand.
-
-5. Know What Can Go Wrong (Analytical Theory)
-Spot risk of misleading results — like outliers or unrepresentative patterns.
-
-6. Work with Code and Technology (Computational Skills)
-Clean and analyse data using reproducible workflows.
-
-7. Communicate What You Find (Presentation & Communication)
-Clearly explain results and persuade decision-makers.
-
-7. Ask the Right Questions (Creativity & Judgment)
-Turn a vague challenge into a testable, decision-relevant question.
-
-Emphasise: Most analysts won’t use all eight in every project — and that’s okay.
-The goal is to build awareness of what the problem demands, and what the analyst brings to it.
+- Understanding of the business context (e.g. Uber’s pricing, platform dynamics, driver incentives)
+- Feasibility — can the data or insights be realistically accessed and interpreted?
+- Prioritization — starting with high-signal, high-feasibility directions instead of jumping to the most complex tools
+- Anticipation of communication needs — who will need to hear about the results, and how?
 
 💬 **Suggested In-Class Prompts**
 
-“Which three skills would be most important for you in this problem?”
+“If you had to act on one plan in your group tomorrow, which one would you pick?”
 
-“Which of these skills do you already feel confident in?”
+“Did anyone’s plan anticipate stakeholder communication needs?”
 
-“Can you think of similar business problem where a different skill mix would matter more?”
+“Was there a plan that skipped context or felt hard to implement?”
+
+“Which plans reflected the business scientist mindset—not just analysis, but action?”
 
 📌 **Common Misunderstandings** 
 
-Thinking analytics = coding or modelling only
-
-Overlooking the importance of business context, judgment, or communication
-
-Not recognising that skills can be shared across a team
+- Assuming more bullet points = better
+- Prioritizing technical detail over business relevance
+- Forgetting that findings will need to be explained clearly to non-specialists
+- Treating the task like a coding plan rather than an analytical plan
 
 :::
 
@@ -86,15 +78,19 @@ Solution
 
 ::: {.solution-block-body}
 
-Solving this inventory problem at David Jones would draw on several skills.
+*NOTE: This is just one possible approach. Group responses will vary depending on what each person focused on in Question 3. The important thing is to reason clearly about why one starting point is especially strong.*
 
-Arguably, the most essential here are:
+Selected starting point (from a group member):
 
-1. Understand the Business World (Institutional Detail): You need to know how retail and seasonal promotions work to interpret the data meaningfully.
-2. Ask the Right Questions (Creativity & Judgment): You must turn the inventory issue into focused, answerable questions about demand patterns and delivery timing.
-3. Choose the Right Tool (Analytical Models): You’ll need to summarise sales patterns and maybe even predict demand — so you need to choose the right level of analysis.
+“I’d analyze log-on/off patterns and price spikes to look for signs of coordinated behavior, then follow up with internal interviews and forum monitoring to understand what drivers know and share. I’d also prepare simple visuals and clear language to help explain the issue to product and policy teams.”
 
-Other skills, like Presentation & Communication or Computational Skills, depend more on the context — if you're presenting to managers, communication is key; if scaling the solution with a model over multiple markets, coding might matter more. Not every analyst will use every skill on every problem, but strong solutions often involve a mix of both essential and context-specific skills.
+Why this is a strong approach:
+
+- It begins with observable behavior in the data that can be tracked and tested
+- It considers context and incentives, not just technical detection
+- It blends data exploration, institutional knowledge, and communication planning
+- It’s practical and well-scoped — not overambitious for a first analysis, but still meaningful
+- It anticipates the need to translate findings to decision-makers with different levels of technical knowledge
 :::
 
 :::
