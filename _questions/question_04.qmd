@@ -11,8 +11,8 @@
 
 (c) Choose the best research question your group came up with.
 Write down the question and explain why you chose it. What makes it clear, useful, or powerful?
-:
-:: {.callout-tip} 
+
+::: {.callout-tip} 
 ## Conversation prompt  
 Are your group's questions descriptive (what happened), predictive (what will happen), or causal (why did it happen)? How does that shape the analysis?
 :::
@@ -108,7 +108,7 @@ Solution
 
 ::: {.solution-block-body}
 
-There is no single “correct” research question. Instead, a your discussion should have focussed on:
+There is no single “correct” research question. Instead, your discussion should have focused on:
 
 1. A clear set of criteria for judging context descriptions and research questions, such as:
     - Clarity: Is the question specific and easy to understand?
