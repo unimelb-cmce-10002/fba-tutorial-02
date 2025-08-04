@@ -4,6 +4,7 @@
 .Rproj.user/*
 .Rhistory
 .Rproj.user
+*student.qmd
 
 /.quarto/
 tutorial_*/
