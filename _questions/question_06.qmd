@@ -18,8 +18,6 @@ c. Find the project titled "Tutorial 2".
 d. Click "Make a Copy".
 e. Wait for the RStudio session to finish loading — you should see the Console, Files, and Environment panes.
 
-!!!! Lachlan Needs to check these are the correct steps.
-
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
 
