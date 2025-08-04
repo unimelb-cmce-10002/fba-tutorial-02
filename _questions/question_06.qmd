@@ -13,9 +13,9 @@ In future weeks, we don't anticipate sudden jumps in content in the middle of a 
 Log in to Posit Cloud and launch your project.
 
 a. Go to https://posit.cloud and log in using your university credentials.
-b. Navigate to the “Shared with Me” tab on the left sidebar.
-c. Find the project titled FBA - Getting Started (or your instructor will tell you the correct name).
-d. Click the project to open it.
+b. Navigate to the “CMCE 10002 - 2025 Semester 2” Space on the left sidebar.
+c. Find the project titled "Tutorial 2".
+d. Click "Make a Copy".
 e. Wait for the RStudio session to finish loading — you should see the Console, Files, and Environment panes.
 
 !!!! Lachlan Needs to check these are the correct steps.
