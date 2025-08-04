@@ -1,7 +1,7 @@
 <!-- question-type: inclass -->
 ### Exercise 7: Make Some Edits to Your Quarto Document
 
-a. At the top of the document, in the YAML header, change the author: field to your full name.
+a. At the top of the document, in the YAML header, change the `author` field to your full name.
 b.  Edit the sentence below sentence so:
     - One word is bold by wrapping it in double asterisks: `**like this**`
     - Another word italic by wrapping it in single asterisks: `*like this*`
